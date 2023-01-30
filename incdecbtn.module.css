@@ -1,0 +1,70 @@
+.main {
+    padding: 2px;
+    margin: 2px;
+    background-color: rgba(50, 50, 50, 0.5);
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #eaeaea;
+    border-style: solid;
+    width: auto;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    width: auto;
+    padding-right: 5px;
+    margin: 2px;
+    text-align: start;
+}
+
+.btndiv {
+    /* flex flex-row justify-start */
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.btnstyle {
+    /* m-0.5 rounded-lg h-8 w-8 border text-center text-black font-bold border-white hover:enabled:bg-lime-500
+                      enabled:bg-lime-500/60 hover:disabled:bg-red-500 disabled:bg-red-500/60
+}
+*/
+    margin: 1px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #eaeaea;
+    border-style: solid;
+}
+
+.btnstyle:enabled {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.btnstyle:disabled {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.btnstyle:enabled:hover {
+    background-color: rgba(0, 255, 0);
+    border-width: 2px;
+    font-weight: bolder;
+}
+
+.btnstyle:disabled:hover {
+    background-color: rgba(255, 0, 0);
+    border-width: 2px;
+    font-weight: bolder;
+}
+
+.showstyle {
+    padding: 1px;
+}
